@@ -29,6 +29,7 @@ function stopVideo() {
   return true;
 }
 
+
 // Event Listeners
 video.addEventListener('click', toggleVideoStatus);
 video.addEventListener('pause', updatePlayIcon);
